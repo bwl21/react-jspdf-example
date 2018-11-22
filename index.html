@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Add React in One Minute</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"
+            integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+            crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/MrRio/jsPDF/master/examples/js/pdfobject.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<h2>Add React in One Minute</h2>
+<p>This page demonstrates using React with no build tooling.</p>
+<p>React is loaded as a script tag.</p>
+<h2>also demonstrates application of jspdf and pdfobject</h2>
+<ul>
+    <li><p>jspdf and pdfobject is loaded as as script tag.</p></li>
+    <li><p>input is reflected on page and in pdf</p></li>
+    <li><p>pdf is embedded as ifram as well as via pdfobject</p></li>
+    <li><p>the component is instantiated three time</p></li>
+</ul>
+
+    <!-- We will put our React component inside this div. -->
+<div class="like_button_container" data-commentid="1"></div>
+
+
+    <!-- We will put our React component inside this div. -->
+<div class="like_button_container" data-commentid="2"></div>
+
+    <!-- We will put our React component inside this div. -->
+<div class="like_button_container" data-commentid="3"></div>
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<!-- Load our React component. -->
+
+<script src="like_button.js"></script>
+</body>
+</html>
