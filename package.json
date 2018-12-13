@@ -1,0 +1,26 @@
+{
+  "name": "react-jspdf-example",
+  "version": "1.0.0",
+  "description": "This project is a playground and demonstrator how to embed jsPDF in a react project",
+  "main": "like_button.js",
+  "scripts": {
+    "test": "node node_modules/ndb/ndb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwl21/react-jspdf-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwl21/react-jspdf-example/issues"
+  },
+  "homepage": "https://github.com/bwl21/react-jspdf-example#readme",
+  "dependencies": {
+    "html2pdf": "0.0.11",
+    "jspdf": "^1.4.1"
+  },
+  "devDependencies": {
+    "ndb": "^1.0.42"
+  }
+}
